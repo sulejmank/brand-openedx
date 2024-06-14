@@ -2,7 +2,14 @@
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
 
 
-.logo {
+img .logo {
     height: 36px !important;
 }
 
+#registration-form {
+    display: none !important;
+}
+
+#sign-in-form {
+    display: none !important;
+}
