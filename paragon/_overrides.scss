@@ -1,19 +1,25 @@
-// Use this file to define style overrides for @edx/paragon
-// This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
-
 
 img .logo {
-    height: 36px !important;
+    height: 38px !important;
+}
+a img .logo {
+    height: 38px !important;
+}
+#root header .logo  {
+    height: 38px !important;
+}
+#root header.customise.learning-header .logo img {
+    height: 38px !important;
 }
 
-//Login/Registration page
-// todo: revert after testing 
-// #registration-form {
-//     display: none !important;
-// }
-// #sign-in-form {
-//     display: none !important;
-// }
+
+// Login/Registration page
+#registration-form {
+    display: none !important;
+}
+#sign-in-form {
+    display: none !important;
+}
 
 
 // Account page
@@ -29,13 +35,13 @@ img .logo {
 #linked-accounts {
     display: none !important;
 }
-#basic-information div:nth-child(4) {
-    display: none !important;
-}
-#basic-information div:nth-child(5) {
-    display: none !important;
-}
 #basic-information div:nth-child(6) {
+    display: none !important;
+}
+#basic-information div:nth-child(7) {
+    display: none !important;
+}
+#basic-information div:nth-child(8) {
     display: none !important;
 }
 .page__account-settings .jump-nav-sm {
