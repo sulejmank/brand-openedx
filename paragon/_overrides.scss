@@ -6,12 +6,38 @@ img .logo {
     height: 36px !important;
 }
 
-
+//Login/Registration page
 // todo: revert after testing 
 // #registration-form {
 //     display: none !important;
 // }
-
 // #sign-in-form {
 //     display: none !important;
 // }
+
+
+// Account page
+#profile-information {
+    display: none !important;
+}
+#social-media {
+    display: none !important;
+}
+#site-preferences {
+    display: none !important;
+}
+#linked-accounts {
+    display: none !important;
+}
+#basic-information div:nth-child(4) {
+    display: none !important;
+}
+#basic-information div:nth-child(5) {
+    display: none !important;
+}
+#basic-information div:nth-child(6) {
+    display: none !important;
+}
+.page__account-settings .jump-nav-sm {
+    display: none !important;
+}
