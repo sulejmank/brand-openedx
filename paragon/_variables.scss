@@ -2,17 +2,16 @@
 // // See _variables.scss in https://github.com/openedx/paragon/blob/master/scss/core/ for reference
 
 
-// $primary: #4EAEDC;
-// $primary-light: #F2F7F8;
+$primary: #4EAEDC;
+$primary-light: #F2F7F8;
 
 // // Theme fonts
-// $font-family-title: 'Nunito', sans-serif;
-// $serif: "Quicksand";
-// $f-sans-serif: 'Quicksand', 'Open Sans','Helvetica Neue', Helvetica, Arial, sans-serif;
-// @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-// @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
-// // Initialize the Open edX Bootstrap theme
-// @import 'edx-bootstrap/sass/open-edx/theme';
+$font-family-title: 'Nunito', sans-serif;
+$serif: "Quicksand";
+$f-sans-serif: 'Quicksand', 'Open Sans','Helvetica Neue', Helvetica, Arial, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+// Initialize the Open edX Bootstrap theme
 
-// $drak: #414547;
-// $light-drak: #414547;
+$drak: #414547;
+$light-drak: #414547;
