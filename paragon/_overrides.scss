@@ -11,7 +11,10 @@ a img .logo {
 #root header.customise.learning-header .logo img {
     height: 38px !important;
 }
-
+.site-header-desktop .logo {
+    height: 38px !important;
+    padding: 0 !important;
+}
 
 // Login/Registration page
 #registration-form {
