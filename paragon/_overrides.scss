@@ -29,14 +29,11 @@ a img .logo {
 .pgn__hyperlink .default-link .standalone-link a 
 
 // Login/Registration page
-#registration-form {
+#registration-form :not(:last-child){
     display: none !important;
-    &:last-child{
-        display: block;
-    }
 }
 #sign-in-form :not(:last-child){
-    display: none;
+    display: none !important;
 }
 
 
