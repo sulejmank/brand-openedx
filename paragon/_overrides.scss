@@ -35,10 +35,8 @@ a img .logo {
         display: block;
     }
 }
-#sign-in-form {
-    &:last-child{
-        display: block;
-    }
+#sign-in-form :not(:last-child){
+    display: none;
 }
 
 
