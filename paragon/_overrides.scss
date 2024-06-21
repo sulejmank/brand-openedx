@@ -26,21 +26,19 @@ a img .logo {
     background-color: transparent;
 }
 
-.pgn__hyperlink .default-link .standalone-link a 
-
 // Login/Registration page
-#registration-form :not(:last-child){
-    display: none !important;
-}
-#sign-in-form :not(:last-child){
-    display: none !important;
-}
-form#registration-form :not(:last-child) {
-    display: none !important;
-}
-form#sign-in-form  :not(:last-child) {
-    display: none !important;
-}
+// #registration-form :not(:last-child){
+//     display: none !important;
+// }
+// #sign-in-form :not(:last-child){
+//     display: none !important;
+// }
+// form#registration-form :not(:last-child) {
+//     display: none !important;
+// }
+// form#sign-in-form  :not(:last-child) {
+//     display: none !important;
+// }
 
 // Account page
 #profile-information {
