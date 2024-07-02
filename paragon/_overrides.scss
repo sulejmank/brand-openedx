@@ -26,19 +26,6 @@ a img .logo {
     background-color: transparent;
 }
 
-// Login/Registration page
-#registration-form :not(:last-child){
-    display: none !important;
-}
-// #sign-in-form :not(:last-child){
-//     display: none !important;
-// }
-// form#registration-form :not(:last-child) {
-//     display: none !important;
-// }
-// form#sign-in-form  :not(:last-child) {
-//     display: none !important;
-// }
 
 // Account page
 #profile-information {
@@ -86,4 +73,13 @@ a#forgot-password {
 }
 button#register-user {
     display: none;
+}
+
+.mt-4.mb-3.h4 {
+    visibility: hidden;
+}
+
+.mt-4.mb-3.h4:after {
+    content: 'Proceed with:';
+    visibility: visible;
 }
