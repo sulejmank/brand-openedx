@@ -1,31 +1,13 @@
-
-img .logo {
-    height: 38px !important;
-}
-a img .logo {
-    height: 38px !important;
-}
-#root header .logo  {
-    height: 38px !important;
-}
-#root header.customise.learning-header .logo img {
-    height: 38px !important;
-}
-.site-header-desktop .logo {
-    height: 38px !important;
+#root .learner-variant-header a.mx-auto img {
+    height: 50px !important;
+    margin: 0 !important;
     padding: 0 !important;
 }
 
-.learner-variant-header a {
-    background-color: transparent !important;
+// User menu
+.dropdown-menu-right.dropdown-menu.show a:first-child {
+    display: none;
 }
-.learner-variant-header .btn-inverse-primary {
-    background-color: transparent !important;
-}
-.learner-variant-header div a .btn-inverse-primary {
-    background-color: transparent;
-}
-
 
 // Account page
 #profile-information {
@@ -51,35 +33,4 @@ a img .logo {
 }
 .page__account-settings .jump-nav-sm {
     display: none !important;
-}
-
-// Auth page fixes
-.text-accent-a {
-    color: #24388c !important;
-}
-img.logo.position-absolute {
-    width: 160px;
-}
-
-// Login and registration hide
-button#sign-in {
-    display: none !important;
-}
-.pgn__form-group {
-    display: none !important;
-}
-a#forgot-password {
-    display: none !important;
-}
-button#register-user {
-    display: none;
-}
-
-.mt-4.mb-3.h4 {
-    visibility: hidden;
-}
-
-.mt-4.mb-3.h4:after {
-    content: 'Proceed with:';
-    visibility: visible;
 }
