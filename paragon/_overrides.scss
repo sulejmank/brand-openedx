@@ -1,11 +1,5 @@
-// #root .learner-variant-header a.mx-auto img {
-//     height: 50px !important;
-//     margin: 0 !important;
-//     padding: 0 !important;
-// }
-
 $primary: #4EAEDC;
-$primary-light: #d2d9db;
+$primary-light: #F2F7F8;
 
 // User menu
 .dropdown-menu-right.dropdown-menu.show a:first-child {
@@ -1360,8 +1354,9 @@ div[data-learner-type=b2c_learner] {
         a.mx-auto {
             margin: 0 38px 0 0 !important;
             img {
-                height: 21px !important;
+                height: 40px !important;
                 margin: 0 !important;
+                padding: 0 !important;
             }
         }
         .flex-grow-1 + .btn-inverse-primary {
@@ -2851,21 +2846,7 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 {
                     margin: 0;
                 }
                 button {
-                    padding: 7px 13px !important;
-                    border: 1px solid $primary !important;
-                    color: #fff;
-                    text-decoration: none;
-                    font-size: 14px;
-                    font-weight: 500;
-                    line-height: 20px;
-                    margin: 0 !important;
-                    position: absolute;
-                    right: 15px;
-                    top: 15px;
-                    background: $primary;
-                    svg {
-                        display: none;
-                    }
+                    display: none;
                 }
                 p {
                     .small.text-muted {
