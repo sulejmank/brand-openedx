@@ -4,7 +4,8 @@
 //     padding: 0 !important;
 // }
 
-@import url(./_variables.scss);
+$primary: #4EAEDC;
+$primary-light: #d2d9db;
 
 // User menu
 .dropdown-menu-right.dropdown-menu.show a:first-child {
