@@ -31,8 +31,6 @@ $primary-light: #F2F7F8;
 .page__account-settings .jump-nav-sm {
     display: none !important;
 }
-// Use this file to define style overrides for @edx/paragon
-// This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
 
 html {
     width: 100%;
@@ -1029,7 +1027,7 @@ div[data-learner-type=b2c_learner] {
         height: auto;
         box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.06), 0px 1px 3px 0px rgba(0,0,0,0.1);
         .container-fluid {
-            max-width: 1600px;
+            max-width: 1090px;
             margin: 0 auto;
             padding: 0 15px;
         }
@@ -1041,7 +1039,7 @@ div[data-learner-type=b2c_learner] {
                 margin: 0 18px 0 0 !important;
             }
             img {
-                height: 21px;
+                height: 40px;
             }
        }
         .main-nav {
@@ -1136,7 +1134,7 @@ div[data-learner-type=b2c_learner] {
                 margin: 0 18px 0 0 !important;
             }
             img {
-                height: 21px;
+                height: 40px;
             }
        }
        .course-title-lockup {
