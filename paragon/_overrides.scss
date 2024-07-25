@@ -1407,12 +1407,18 @@ div[data-learner-type=b2c_learner] {
         position: absolute;
         top: 56px;
         z-index: 999;
+
+        a.btn.btn-inverse-primary:nth-child(2) {
+            display: none !important;
+        }
+
         a {
             border: none !important;
             padding: 16px;
             font-size: 14px;
             line-height: 20px;
             color: #374151;
+            background-color: #fff !important;
         }
     }
 }
