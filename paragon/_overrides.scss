@@ -1360,6 +1360,7 @@ div[data-learner-type=b2c_learner] {
         .flex-grow-1 + .btn-inverse-primary {
             display: none !important;
         }
+      
         .btn.btn-inverse-primary {
             font-size: 14px;
                     font-weight: 500;
@@ -1386,6 +1387,11 @@ div[data-learner-type=b2c_learner] {
             .pgn__icon.btn-icon__icon {
                 width: 26px;
                 height: auto;
+            }
+        }
+        div {
+            a.p-4.btn.btn-inverse-primary:nth-child(3) {
+                display: none !important;
             }
         }
     }
