@@ -1530,6 +1530,9 @@ footer.tutor-container {
 }
 #dashboard-container {
     padding: 0 !important;
+    a.btn.btn-primary {
+        color: #fff !important;
+    }
     #dashboard-content {
         @include media-breakpoint-up(lg) {
           min-height: calc(100vh - 232px);
