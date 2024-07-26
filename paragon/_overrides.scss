@@ -761,6 +761,10 @@ div[data-learner-type=b2c_learner] {
         fill: $primary-light;
     }
 }
+
+.fullscreen-controls {
+    display: none !important;
+}
 #root {
     .grades {
         .pgn__data-table {
