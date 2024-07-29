@@ -765,6 +765,7 @@ div[data-learner-type=b2c_learner] {
 .fullscreen-controls {
     display: none !important;
 }
+
 #root {
     .grades {
         .pgn__data-table {
@@ -1188,6 +1189,7 @@ div[data-learner-type=b2c_learner] {
         .container-xl {
             padding-top: 0 !important;
             padding-bottom: 0 !important;
+            max-width: 1090px !important;
         }
     }
     .user-dropdown {
