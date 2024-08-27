@@ -2914,3 +2914,22 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 {
         }
     } 
 }
+
+#dashboard-container .container-mw-xl.container-fluid .row .course-list-column .course-card .pgn__card .pgn__action-row button.btn-outline-primary {
+    display: none;
+}
+
+.page__account-settings #delete-account p.text-danger {
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid #808080;
+    margin: 0 0 15px;
+    border-radius: 10px;
+    padding: 10px;
+    color: #808080 !important;
+    background-color: #fbdfdfd9 !important;
+}
+
+.page__account-settings #delete-account p.text-danger.h6:after {
+    content: " In order to delete your profile, please reach out on info@lnds.lu with deletion request.";
+}
